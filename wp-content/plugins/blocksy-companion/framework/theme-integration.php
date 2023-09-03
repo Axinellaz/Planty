@@ -378,7 +378,7 @@ class ThemeIntegration {
 			'user_contactmethods',
 			function ( $field ) {
 				$fields['facebook'] = __( 'Facebook', 'blocksy-companion' );
-				$fields['twitter'] = __( 'Twitter', 'blocksy-companion' );
+				$fields['twitter'] = __( 'X (Twitter)', 'blocksy-companion' );
 				$fields['linkedin'] = __( 'LinkedIn', 'blocksy-companion' );
 				$fields['dribbble'] = __( 'Dribbble', 'blocksy-companion' );
 				$fields['instagram'] = __( 'Instagram', 'blocksy-companion' );
