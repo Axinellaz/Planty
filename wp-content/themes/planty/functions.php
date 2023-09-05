@@ -15,3 +15,14 @@ function theme_enqueue_styles() {
 }
 
 ?>
+
+<?php
+
+function planty_theme()
+
+{
+    add_theme_support('menus'); 
+    register_nav_menu('header-planty' , 'En tete du menu du site Planty');
+}
+
+?>

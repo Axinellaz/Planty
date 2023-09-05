@@ -2,4 +2,38 @@
 
 *{
     font-family: 'Syne', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+/* **** HEADER ***** */ 
+
+.row.row--wapper{
+    margin: 0;
+}
+
+.builder-item{
+    margin: 0 !important;
+    padding: 0;
+}
+/* Menu */
+
+.nav-ul li:hover>.wrap>a {
+    color: #000 !important;
+}
+
+.nav-ul li:hover{
+    font-weight: 600;
+}
+
+/* Bouton */
+
+.button.button-primary{
+    background-color: #DC9F96 !important;
+}
+
+.header .builder-item [class*=button_base] .button{
+    padding: 30px;
+    margin: 0 0 0 10px;
+}
+
