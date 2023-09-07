@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-/* **** HEADER ***** */ 
+/* **** BAR HEADER ***** */ 
 
 .row.row--wapper{
     margin: 0;
@@ -37,3 +37,74 @@
     margin: 0 0 0 10px;
 }
 
+/****  Header *****/
+
+.title-h1{
+    width: 50%;
+}
+
+/*** ******** Image ******* *****/
+
+.box-img{
+    position: relative;
+}
+
+.center-img{
+    z-index: 3;
+}
+
+.left-img{
+    position: absolute;
+    top: 20%;
+    left: -44%;
+}
+
+.right-img{
+    position: absolute;
+    top: 20%;
+    right: -44%;
+}
+
+/******* ** Section Texte  ***** ******/
+
+.txt-description{
+    font-size: 20px;
+}
+
+/***** ****   Gelerie image ******/
+
+.gallery-img{
+    width: 70%;
+}
+
+/*****  Page Contact ******/
+
+/**** Section txt *******/
+
+.title-contact{
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+
+.txt-contact{
+    width: 50%;
+    color: #000;
+    font-size: 20px;
+}
+
+.box-item-contact{
+    position: relative;
+}
+.img-contact{
+    position: absolute;
+}
+
+
+/******* Formulaire *******/
+
+#form-contact input[type=submit]{
+    background-color: #DC9F96 !important;
+    padding: 15px 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
