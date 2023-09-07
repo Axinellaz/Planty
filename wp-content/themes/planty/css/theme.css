@@ -106,5 +106,5 @@
     background-color: #DC9F96 !important;
     padding: 15px 50px;
     margin-left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); /* Pour eviter que le champ soit trop eloigné*/
 }
