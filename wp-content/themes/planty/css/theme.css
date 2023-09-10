@@ -5,13 +5,14 @@
     margin: 0;
     padding: 0;
 }
+
+/*****          PAGE D'ACCUEIL       *******/
 /***** Header ******/
 header .container{
     padding: 0;
     margin: 0;
 }
-/* **** BAR HEADER ***** */ 
-
+/* **** Barre Navbar ***** */ 
 
 .row.row--wapper{
     margin: 0;
@@ -21,7 +22,7 @@ header .container{
     margin: 0 !important;
     padding: 0;
 }
-/* Menu */
+/* Menu Navbar */
 
 .nav-ul li:hover>.wrap>a {
     color: #000 !important;
@@ -31,7 +32,7 @@ header .container{
     font-weight: 600;
 }
 
-/* Bouton */
+/* Bouton Navbar */
 .component-wrap{
     margin: 0 !important;
 }
@@ -50,13 +51,13 @@ header .container{
     border-radius: 0;
 }
 
-/****  Header *****/
+/****  Titre H1 *****/
 
 .title-h1{
-    width: 50%;
+    width: 70%;
 }
 
-/*** ******** Image ******* *****/
+/*** ******** Image Header ******* *****/
 
 .box-img{
     position: relative;
@@ -78,21 +79,41 @@ header .container{
     right: -44%;
 }
 
-/******* ** Section Texte  ***** ******/
+/******* SECTION Texte Description  ***** ******/
 
 .txt-description{
     font-size: 20px;
 }
 
-/***** ****   Gelerie image ******/
+/*****   Galerie image ******/
 
 .gallery-img{
     width: 70%;
 }
 
-/*****  PAGE CONTACT ******/
+/****   Btn Galerie image  */
 
-/**** Section txt *******/
+.is-style-primary .wp-block-button__link:hover{
+    background-color: #c02e44 !important;
+}
+
+/********** Section Ce qu'ils pensent **********/
+
+.rangee-post-footer{
+    width: 85%;
+}
+
+.item-rangee-post-footer{
+    width: 33%;
+}
+
+.box-txt-post-footer{
+    max-width: 70%;
+}
+
+/*****          PAGE CONTACT        ******/
+
+/**** Section txt Header *******/
 
 .title-contact{
     font-size: 38px;
@@ -116,6 +137,21 @@ header .container{
     height: 150px;
 }
 
+/***** Section l'équipe ******/
+
+.Colonne-team{
+    width: 85%;
+    position: relative;
+}
+
+/**** Image section l'équipe ****/
+
+.img-team{
+    position: absolute;
+    right: 0%;
+    top: 37%;
+}
+
 
 /******* Formulaire *******/
 #form-contact{
@@ -132,6 +168,7 @@ header .container{
 #form-contact label{
     color: #000;
     font-weight: 500;
+    font-size: 20px;
 }
 
 form input:read-write{
@@ -144,3 +181,4 @@ form input:read-write{
     bottom: 6%;
     left: 27%;
 }
+
