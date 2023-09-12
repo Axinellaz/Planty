@@ -8,9 +8,18 @@
 
 /*****          PAGE D'ACCUEIL       *******/
 /***** Header ******/
-header .container{
-    padding: 0;
-    margin: 0;
+header{
+    position: relative;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+}
+
+header::after{
+    content: "";
+    width: 100vw;
+    height: 20px;
+    background-color:#E3D9D0;
+    
 }
 /* **** Barre Navbar ***** */ 
 
@@ -85,19 +94,37 @@ header .container{
     font-size: 20px;
 }
 
-/*****   Galerie image ******/
 
-.gallery-img{
-    width: 70%;
+/*****         SECTION GALERIE      *****/
+
+.container-galerie-items{
+    border-radius: 25% 25% 25% 25% / 0% 0% 3% 2%;
 }
 
-/****   Btn Galerie image  */
+/*****Galerie image   */
+
+.img-galerie{
+    width: 393px;
+    margin-bottom: 30px;
+}
+
+/****Texte galerie  */
+
+.txt-galerie{
+    font-size: 48px !important;
+}
+
+/****Btn Galerie image  */
+
+.btn-galerie is-style-primary{
+    padding: 20px;
+}
 
 .is-style-primary .wp-block-button__link:hover{
     background-color: #c02e44 !important;
 }
 
-/********** Section Ce qu'ils pensent **********/
+/**********        Section Ce qu'ils pensent     **********/
 
 .rangee-post-footer{
     width: 85%;
