@@ -208,7 +208,7 @@ form input:read-write{
     left: 27%;
 }
 
-/******                  PAGE CONTACT                               *******/
+/******                  PAGE COMMANDE                             *******/
 
 .neve-main{
     background-color: #3B8E46;
@@ -219,4 +219,34 @@ form input:read-write{
     color: #fff;
     font-size: 38px;
     text-align: center;
+}
+
+/*** Section : COMMANDE   ***/
+
+
+.direction-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-vignette{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.txt-vignette{
+    position: absolute;
+    top: 39%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    box-sizing: border-box;
+}
+
+.vignette-commande{
+    width: 192px;
+    height: 128px;
 }
