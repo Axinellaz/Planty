@@ -210,15 +210,38 @@ form input:read-write{
 
 /******                  PAGE COMMANDE                             *******/
 
-.neve-main{
-    background-color: #3B8E46;
+.commande-main{
+    width: 80%;
+    margin: auto;
 }
 
+.container-page-commande{
+    background-color: #3B8E46;
+}
+/**** Title page ***/
+
 .title-commandes{
-    
     color: #fff;
     font-size: 38px;
+    font-weight: 800;
     text-align: center;
+    padding: 70px 0;
+}
+
+.sous-title-commande{
+    color: #fff;
+    font-size: 30px;
+}
+
+/***** Separateur ***/
+
+.separateur{
+    color: #fff;
+}
+
+.separateur-verticale{
+    border-left: 2px solid #fff;
+    height: 400px;
 }
 
 /*** Section : COMMANDE   ***/
@@ -243,10 +266,46 @@ form input:read-write{
     color: #fff;
     font-size: 25px;
     font-weight: 800;
-    box-sizing: border-box;
 }
 
 .vignette-commande{
     width: 192px;
     height: 128px;
+}
+
+/***** Section formulaire ****/
+
+.part-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.left{
+    margin-left: 50px;
+}
+
+.right{
+    margin-left: 50px;
+}*/
+
+.input-commande{
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.label-commande{
+    font-size: 20px;
+    color: #fff;
+}
+
+.container-form-flex{
+    display: flex;
+    width: 100%;
+}
+
+/***** Bouton Envoyer ***/
+
+.btn-envoyer{
+    padding: 15px;
 }
