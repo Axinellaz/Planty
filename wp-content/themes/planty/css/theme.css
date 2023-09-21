@@ -103,7 +103,7 @@ header::after{
 /*****Galerie image   */
 
 .img-galerie{
-    width: 393px;
+    width: 392px;
     margin-bottom: 30px;
 }
 
@@ -141,12 +141,12 @@ header::after{
 
 /**** Section txt Header *******/
 
-.title-contact{
+.title-page-nr{
     font-size: 38px;
     padding-bottom: 20px;
 }
 
-.txt-contact{
+.txt-page-nr{
     width: 50%;
     color: #000;
     font-size: 20px;
@@ -155,7 +155,7 @@ header::after{
 .box-item-contact{
     position: relative;
 }
-.img-contact{
+.icone-page-nr{
     position: absolute;
     top: 10%;
     left: 10%;
@@ -211,7 +211,7 @@ form input:read-write{
 /******                  PAGE COMMANDE                             *******/
 
 .commande-main{
-    width: 80%;
+    width: 65%;
     margin: auto;
 }
 
@@ -275,23 +275,27 @@ form input:read-write{
 
 /***** Section formulaire ****/
 
+form{
+    margin: auto;
+    width: 100%;
+}
+
 .part-form{
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-/*.left{
-    margin-left: 50px;
+.right{
+    margin-left: 100px;
 }
 
-.right{
-    margin-left: 50px;
-}*/
-
 .input-commande{
-    width: 60%;
+    width: 80%;
     margin-bottom: 15px;
+    padding: 20px !important;
+    border-radius: 5px !important ;
+
 }
 
 .label-commande{
@@ -301,7 +305,7 @@ form input:read-write{
 
 .container-form-flex{
     display: flex;
-    width: 100%;
+   /* margin-left: 50px;*/
 }
 
 /***** Bouton Envoyer ***/
@@ -309,3 +313,98 @@ form input:read-write{
 .btn-envoyer{
     padding: 15px;
 }
+
+
+/*       R E S P O N S I V E      */
+
+@media screen and (max-width : 520px) {
+
+
+ /*****   P A G E  A C C U E I L *****/
+
+    .title-h1{
+        width: 50%;
+    }
+
+    .box-img{
+        width: 50%;
+    }
+
+    .left-img{
+        width: 100%;
+        top: 0;
+    }
+
+    .right-img{
+        width: 100%;
+        top: 0;
+    }
+
+    /* Galerie image */   
+    .img-galerie{
+        width: 320px;
+    }
+
+    .txt-galerie{
+        font-size: 25px !important;
+    }
+
+    /* Section ce que vous pensez */
+
+    .rangee-post-footer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .item-rangee-post-footer{
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+/**** P A G E : N O U S  R E N C O N T R E R  *****/
+
+    .icone-page-nr{
+        height: 120px;
+        width: 120px;
+        top: 1%;
+        left: 1%;
+    }
+
+    .title-page-nr{
+        font-size: 25px;
+    }
+    
+    .txt-page-nr{
+        font-size: 16px;
+    }
+
+    /**** Section L'équipe ***/
+
+    .img-team{
+        width: 100px;
+        top: 54%;
+    }
+
+    /****** Section Formulaire NR ****/
+
+    .form-page-nr{
+        width: 50%;
+        height: 50%;
+    }
+
+    form input:read-write, form textarea{
+        width: 100%;
+    }
+
+    #form-contact label{
+        font-size: 15px ;
+    }
+
+    .img-form{
+        width: 100px;
+        height: 100px;
+        bottom: 9%;
+        left: 10%;
+    }
+
+}  

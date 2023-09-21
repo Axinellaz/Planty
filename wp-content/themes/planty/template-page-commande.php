@@ -57,7 +57,7 @@ get_header()
                     <input class="input-commande" type="email" name="email" id="email">
                 </div>
         
-                <div class="separateur-verticale" ></div>
+                <div class="separateur-verticale" ></div>  
         
                 <div class="part-form right">
         
