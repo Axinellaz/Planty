@@ -6,20 +6,8 @@
     padding: 0;
 }
 
-/*****          PAGE D'ACCUEIL       *******/
-/***** Header ******/
-header{
-    position: relative;
-    
-}
+/*         N a v b a r           */
 
-header::after{
-    content: "";
-    width: 100vw;
-    height: 40px;
-    background-color:#E3D9D0;
-    border-radius: 50%;
-}
 /* **** Barre Navbar ***** */ 
 
 .row.row--wapper{
@@ -54,9 +42,24 @@ header::after{
 }
 
 .header .builder-item [class*=button_base] .button{
-    padding: 25px 40px;
+    padding: 27px 40px;
     margin: 0 0 0 50px;
     border-radius: 0;
+}
+
+/*****        P A G E D'A C C U E I L       *******/
+/***** Header ******/
+header{
+    position: relative;
+    
+}
+
+header::after{
+    content: "";
+    width: 100vw;
+    height: 40px;
+    background-color:#E3D9D0;
+    border-radius: 50%;
 }
 
 /****  Titre H1 *****/
@@ -65,7 +68,7 @@ header::after{
     width: 70%;
 }
 
-/*** ******** Image Header ******* *****/
+/***   Image Header *****/
 
 .box-img{
     position: relative;
@@ -113,13 +116,13 @@ header::after{
     font-size: 48px !important;
 }
 
-/****Btn Galerie image  */
+/*  Btn Galerie    */
 
-.btn-galerie is-style-primary{
-    padding: 20px;
+.btn-galerie{
+    padding: 50px !important;
 }
 
-.is-style-primary .wp-block-button__link:hover{
+.is-style-primary .wp-block-button__link:hover{ /*  2eme classe btn-galerie   */
     background-color: #c02e44 !important;
 }
 
@@ -137,7 +140,9 @@ header::after{
     max-width: 70%;
 }
 
-/*****          PAGE CONTACT        ******/
+
+
+/*       P A G E : N O U S R E N C O N T R E R         ******/
 
 /**** Section txt Header *******/
 
@@ -152,8 +157,10 @@ header::after{
     font-size: 20px;
 }
 
-.box-item-contact{
+.box-item-nr{
+    height: 400px;
     position: relative;
+    border-radius: 25% 25% 44% 48% / 0% 0% 15% 16%;
 }
 .icone-page-nr{
     position: absolute;
@@ -330,8 +337,7 @@ td{
 .separateur-verticale{
     border-left: 1px solid #fff;
     height: 400px;
-    padding: 0 20px;
-    
+    padding: 0 20px
 }
 
 
