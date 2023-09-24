@@ -40,7 +40,7 @@ get_header()
     
     
         
-        <form action="" method="post">
+        <form class="form-commander" action="" method="post">
             
             <div class="container-form-flex">
     
@@ -77,6 +77,29 @@ get_header()
     
             <input class="btn-envoyer" type="submit" value="Commander">
         </form>
+
+        <div class="container-table-row">
+
+            <table>
+            <tbody>
+            
+            <tr>   
+            <td rowspan="2" class="premiere-colonne" > 0 </td>
+    
+            <td class="deuxieme-colonne" > + </td>
+            </tr>
+    
+            <tr>
+            <td class="deuxieme-colonne border-white"> - </td>
+            </tr>
+    
+            </tbody>
+            </table>
+
+            <div class="container-btn-table">
+                <button class="btn-table" >OK</button>
+            </div>
+        </div>
     
     </main>
 
