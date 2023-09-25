@@ -10,6 +10,17 @@
 
 /* **** Barre Navbar ***** */ 
 
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+.admin-bar .menu {
+	top: 32px; /* on prend en compte le décalage */
+}
+
+
+/*
 .row.row--wapper{
     margin: 0;
 }
@@ -20,6 +31,7 @@
 }
 /* Menu Navbar */
 
+/*
 .nav-ul li:hover>.wrap>a {
     color: #000 !important;
 }
@@ -29,6 +41,7 @@
 }
 
 /* Bouton Navbar */
+/*
 .component-wrap{
     margin: 0 !important;
 }
@@ -46,7 +59,7 @@
     margin: 0 0 0 50px;
     border-radius: 0;
 }
-
+*/
 /*****        P A G E D'A C C U E I L       *******/
 /***** Header ******/
 header{
