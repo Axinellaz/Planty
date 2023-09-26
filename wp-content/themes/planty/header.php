@@ -9,22 +9,35 @@
     <?php wp_head(); ?>
 </head>
 
- <?php body_class(); ?>>
-    
-    <?php wp_body_open(); ?> 
-
 	<body <?php body_class(); ?>>
   <header class="header">
-    <a href="<?php echo home_url( '/' ); ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/planty/img/logo-source.png " alt="Logo">
-    </a>  
-  </header>
+
+    <nav id="navigation">
+
+
+
+      <a href="<?php echo home_url( '/' ); ?>">
+        <img src="../img/logo-source.png " alt="Logo">
+      </a> 
+    
+      <div class="container-menu-btn">
+
+        <?php wp_nav_menu( ['theme-location' => 'header-planty' ,
+                             /*'theme_location' => is_user_logged_in() ? 'logged-in-menu' : 'logged-out-menu'*/]); ?>
+    
+                             
+                            
+      <input type="submit" class="btn-navbar button button-primary" value="Commander"> 
+
+      </div>
+
+    </nav>
 
 
   <?php
 
-if (is_user_logged_in()) {
+/*  if (is_user_logged_in()) {
   // User is logged in
 } else {
   // User is not logged in
-}
+} */

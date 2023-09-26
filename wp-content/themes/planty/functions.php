@@ -18,11 +18,14 @@ function theme_enqueue_styles() {
 
 <?php
 
-function planty_theme()
-
-{
+function planty_theme(){
+    
     add_theme_support('menus'); 
+    add_theme_support('custom-logo');
     register_nav_menu('header-planty' , 'En tete du menu du site Planty');
 }
+
+
+add_action('after_setup_theme' , 'planty_theme');
 
 ?>

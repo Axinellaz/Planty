@@ -9,42 +9,49 @@
 /*         N a v b a r           */
 
 /* **** Barre Navbar ***** */ 
+ #navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+ }
 
-.menu {
+.container-menu-btn{
+    width: 30%;
+    display: flex;
+    
+}
+
+.menu-header-planty-container{
+    width: 100%;
+    margin-right: 20px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    font-size: 15px;
+}
+
+.menu-item:hover{
+    font-weight: 800;
+}
+
+/*.menu {
     position: fixed;
     top: 0px;
 }
 
 .admin-bar .menu {
 	top: 32px; /* on prend en compte le décalage */
-}
-
-
-/*
-.row.row--wapper{
-    margin: 0;
-}
-
-.builder-item{
-    margin: 0 !important;
-    padding-right: 0 !important;
-}
-/* Menu Navbar */
-
-/*
-.nav-ul li:hover>.wrap>a {
-    color: #000 !important;
-}
-
-.nav-ul li:hover{
-    font-weight: 600;
-}
 
 /* Bouton Navbar */
-/*
-.component-wrap{
-    margin: 0 !important;
-}
 
 .button.button-primary{
     background-color: #DC9F96 !important;
@@ -54,12 +61,12 @@
     background-color: #c02e44 !important;
 }
 
-.header .builder-item [class*=button_base] .button{
-    padding: 27px 40px;
-    margin: 0 0 0 50px;
+ .button.button.button-primary{
+    padding: 37px 40px;
+    margin: 0 ;
     border-radius: 0;
 }
-*/
+
 /*****        P A G E D'A C C U E I L       *******/
 /***** Header ******/
 header{
@@ -375,7 +382,7 @@ td{
 /*FOOTER */
 
 .footer-planty{
-    background-color: #c02e44 !important;
+    background-color: #fff !important;
 }
 
 /*       R E S P O N S I V E      */
