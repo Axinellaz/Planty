@@ -23,6 +23,7 @@ function planty_theme(){
     add_theme_support('menus'); 
     add_theme_support('custom-logo');
     register_nav_menu('header-planty' , 'En tete du menu du site Planty');
+    register_nav_menu('header-plantyAadmin' , 'En tete du menu du site Planty admin');
 }
 
 

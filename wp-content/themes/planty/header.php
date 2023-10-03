@@ -22,10 +22,17 @@
     
       <div class="container-menu-btn">
 
-        <?php wp_nav_menu( ['theme-location' => 'header-planty' ,
-                             /*'theme_location' => is_user_logged_in() ? 'logged-in-menu' : 'logged-out-menu'*/]); ?>
-    
-                             
+
+        <?php if(is_user_logged_in()){
+
+          wp_nav_menu( ['theme-location' => 'header-plantyAdmin']); 
+        }  
+        else{
+          wp_nav_menu( ['theme-location' => 'header-planty']);
+        }
+        
+        ?>
+                                  
                             
       <input type="submit" class="btn-navbar button button-primary" value="Commander"> 
 
