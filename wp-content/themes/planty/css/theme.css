@@ -14,8 +14,16 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    height: 80px;
+    height: 82px;
     width: 100%;
+    background-color: #fff;
+ }
+
+ /* *** Logo ***/
+
+ .logo{
+    width: 200px;
+    height: 40px;
  }
 
  /*  Position Menu et Btn  */
@@ -76,6 +84,14 @@
     border-radius: 0;
 }
 
+.lien-btn-nav{
+    color: #fff;
+}
+
+.elementor{
+    background-color: #3B8E46;
+}
+
 /*****        P A G E D'A C C U E I L       *******/
 /***** Header ******/
 header{
@@ -83,13 +99,18 @@ header{
     
 }
 
-header::after{
+.curved{
+    border-radius: 0 0 10% 10%;
+    border-bottom: 5px solid #E3D9D0;
+}
+
+/*header::after{
     content: "";
     width: 100vw;
     height: 40px;
     background-color:#E3D9D0;
     border-radius: 50%;
-}
+}*/
 
 /****  Titre H1 *****/
 
@@ -119,14 +140,14 @@ header::after{
     right: -44%;
 }
 
-/******* SECTION Texte Description  ***** ******/
+/******* S E C T I O N Texte Description  ***** ******/
 
 .txt-description{
     font-size: 20px;
 }
 
 
-/*****         SECTION GALERIE      *****/
+/*****         S E C T I O N  Galerie      *****/
 
 .container-galerie-items{
     border-radius: 25% 25% 25% 25% / 0% 0% 3% 2%;
@@ -147,11 +168,14 @@ header::after{
 
 /*  Btn Galerie    */
 
-.btn-galerie{
-    padding: 50px !important;
+.btn-accueil a{
+    padding: 15px 52px;
+    font-weight: 400;
+    font-size: 15px;
 }
 
-.is-style-primary .wp-block-button__link:hover{ /*  2eme classe btn-galerie   */
+.btn-accueil a:hover{
+    color: #fff;
     background-color: #c02e44 !important;
 }
 
@@ -217,7 +241,8 @@ header::after{
 
 /* S e c t i o n :  FORMULAIRE-PAGE-NR **/
 form textarea{
-    z-index: 2 !important;
+    z-index: 2;
+    position: relative;
 }
 
 #form-contact input[type=submit]{
@@ -240,8 +265,8 @@ form input:read-write{
 .img-form{
     z-index: 0;
     position: absolute;
-    bottom: 12%;
-    left: 27%;
+    bottom: 10%;
+    left: 25%;
 }
 
 /******                  PAGE COMMANDE                             *******/
@@ -265,46 +290,50 @@ form input:read-write{
 /* S e c t i o n :       COMMANDE   */
 
 
-/*  TABLEAU NON FONCTIONEL */
+/*  BOX INCREMENTATION NON FONCTIONNEL */
 
-table{
-   /* border-collapse: collapse !important;*/
-    width: 150px !important;
-   
+.container-btn-boxincrementaion{
+    display: flex;
 }
 
-tbody{
-    border-radius: 30px;
+/*   BOX  */
+.box-incrementation{
+    width: 100%;
+    display: flex;
+
 }
 
-td{
-   border: none !important;
-   padding: 3px !important;
-   vertical-align: middle;
+/*  INPUT */
+.input-incrementation{
+    width: 50px;
+    height: 60px;
+    border: none;
+    border-radius: 15% 0 0 15%;
 }
 
+/*  BTN BOX ICREMENTATION */
 
-.premiere-colonne{
-    width: 60%;
-    background-color: #fff !important;
+.box-btn-incrementation{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
-.deuxieme-colonne{
-    color: #fff !important ;
-    background-color: #DC9F96 !important;
+/* BTN INCREMATION */
+
+.btn-incrementation{
+    background-color: #DC9F96;
+    color: #fff;
+    height: 30px;
+    border-radius: 0 15% 15% 0;
 }
 
-.border-white{
-    border-top: #fff solid 1px !important;
+.plus-btn{
+    border-radius: 0 15% 0 0;
 }
 
-.btn-table{
-    padding: 16px 40px;
-    background-color: #E0B9B4 ;
-    border-radius: 6px;
-    font-weight: 400;
-
-
+.moins-btn{
+    border-radius: 0 0 15% 0;
 }
 /* BOUTON DIV TABLEAU */
 
@@ -312,7 +341,6 @@ td{
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 15px;
 
 }
 
@@ -396,6 +424,12 @@ td{
 
 .p-footer{
     text-align: center;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.footer-bottom{
+    display: none;
 }
 
 /*       R E S P O N S I V E      */

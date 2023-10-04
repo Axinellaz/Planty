@@ -6,6 +6,16 @@ get_header()
 
 
 ?>
+
+
+
+<div>
+    <input type="text">
+    <div>
+        <button> + </button>
+        <button> - </button>
+    </div>
+</div>
 <div class="container-page-commande">
 
     <main class="commande-main"> 

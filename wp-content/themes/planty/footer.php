@@ -58,7 +58,6 @@ if ( apply_filters( 'neve_filter_toggle_content_parts', true, 'footer' ) === tru
 	do_action( 'neve_after_footer_hook' );
 }
 ?>
-
 <p class="p-footer" >Mentions Légales</p>
 </div><!--/.wrapper-->
 <?php
