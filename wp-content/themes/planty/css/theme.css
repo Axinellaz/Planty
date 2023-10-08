@@ -8,7 +8,11 @@
 
 /*         N a v b a r           */
 
-/* **** Barre Navbar ***** */ 
+/* **** Barre Navbar ***** */
+.toggle{
+    display: none;
+}
+
  #navigation{
     display: flex;
     justify-content: space-between;
@@ -22,14 +26,15 @@
  /* *** Logo ***/
 
  .logo{
-    width: 200px;
+    width: 250px;
     height: 40px;
+    padding: 0 20px;
  }
 
  /*  Position Menu et Btn  */
 
 .container-menu-btn{
-    width: 30%;
+    width: 40%;
     display: flex;
     
 }
@@ -47,26 +52,33 @@
     display: flex;
     flex-wrap: wrap;
     align-content: center ;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .menu-item a{
-    font-size: 15px;
+    font-size: 17px;
     color: #000;
 }
 
-.menu-item:hover{
-    color: #000;
-    font-weight: 700;
+.menu-item a:hover{
+    font-size: 14px;
+    color: #000 !important;
+    font-weight: 600;
 }
 
-/*.menu {
-    position: fixed;
-    top: 0px;
+/* Lien Admin */
+
+.link-admin-planty{
+    font-size: 14px;
+    color: #000 !important;
+    font-weight: 500; 
 }
 
-.admin-bar .menu {
-	top: 32px; /* on prend en compte le décalage */
+.link-admin-planty:hover{
+    font-size: 14px;
+    color: #000 !important;
+    font-weight: 600;  
+}
 
 /* Bouton Navbar */
 
@@ -79,13 +91,17 @@
 }
 
  .button.button.button-primary{
-    padding: 28px 40px;
-    margin: 0 ;
+    padding: 31px 55px;
+    margin: 0;
     border-radius: 0;
 }
 
-.lien-btn-nav{
-    color: #fff;
+.button.button.button-primary .lien-btn-nav {
+    color: #fff !important;
+}
+
+.lien-btn-nav a:hover{
+    color: #fff !important;
 }
 
 .elementor{
@@ -95,22 +111,13 @@
 /*****        P A G E D'A C C U E I L       *******/
 /***** Header ******/
 header{
-    position: relative;
-    
+    position: relative;  
 }
 
 .curved{
     border-radius: 0 0 10% 10%;
     border-bottom: 5px solid #E3D9D0;
 }
-
-/*header::after{
-    content: "";
-    width: 100vw;
-    height: 40px;
-    background-color:#E3D9D0;
-    border-radius: 50%;
-}*/
 
 /****  Titre H1 *****/
 
@@ -193,8 +200,6 @@ header{
     max-width: 70%;
 }
 
-
-
 /*       P A G E : N O U S R E N C O N T R E R         ******/
 
 /**** Section txt Header *******/
@@ -238,7 +243,6 @@ header{
     top: 37%;
 }
 
-
 /* S e c t i o n :  FORMULAIRE-PAGE-NR **/
 form textarea{
     z-index: 2;
@@ -269,18 +273,8 @@ form input:read-write{
     left: 25%;
 }
 
-/******                  PAGE COMMANDE                             *******/
-
+/******          P A G E  C O M M A N D E                   *******/
 /**** Title page ***/
-
-/*.title-commander{
-    color: #fff;
-    font-size: 38px;
-    font-weight: 800;
-    text-transform: capitalize !important;
-    text-align: center;
-    padding: 70px 0;
-}*/
 
 .sous-title-commande{
     color: #fff;
@@ -288,7 +282,6 @@ form input:read-write{
 }
 
 /* S e c t i o n :       COMMANDE   */
-
 
 /*  BOX INCREMENTATION NON FONCTIONNEL */
 
@@ -349,13 +342,7 @@ form input:read-write{
     background-color: #c02e44;
 }
 
-
 /* S e c t i o n : FORMULAIRE  */
-
-/*form{
-    margin: auto;
-    width: 100%;
-}*/
 
 .form-commander{
     align-items: center;
@@ -402,7 +389,6 @@ form input:read-write{
     padding: 0 20px
 }
 
-
 /***** Bouton Envoyer ***/
 
 .btn-envoyer{
@@ -439,13 +425,144 @@ form input:read-write{
 
 /*       R E S P O N S I V E      */
 
+
+@media screen  and (min-width : 1334px) {
+        
+    /****** P A G E   N O U S   R E N C O N T R E R ******/
+
+        .icone-page-nr{
+           /* width: 200px; */
+            left: 14%;
+        }
+
+        .img-form{
+           left: 30%; 
+        }
+    }
+
+@media screen and (max-width : 1334px) { 
+    .container-menu-btn{
+        width: auto;
+    }
+
+     /****** P A G E   N O U S   R E N C O N T R E R ******/
+
+        .icone-page-nr{
+            /* width: 200px; */
+             left: 14%;
+         }
+ 
+         .img-form{
+            left: 25%; 
+         }
+     }
+
+@media screen and (max-width : 1340px) {
+    .toggle{
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+        margin-right: 15px;
+    }
+
+    .logo{
+        position: relative;
+        z-index: 20;
+    }
+
+    .icone-nav-responsive {
+        width: 37px;
+        height: 37px;
+    }
+
+    .ouvrir{
+        display: block;
+    }
+
+    .fermer{
+        display: none;
+    }
+
+    .open .ouvrir{
+        display: none;
+    }
+
+    .open .fermer{
+        display: block;
+    }
+
+    .container-menu-btn{
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color:#DC9F96;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(-100%); /* Deplacer menu de toute sa largeur vers la gauche */
+        transition: transform 1s;
+        
+    }
+
+    .open .container-menu-btn{
+        transform: translateX(0); 
+    }
+
+    .menu{
+        width: 100%;
+        height: 19vh;
+        flex-direction: column;
+        margin-bottom: 180px;
+        text-align: center;
+    }
+
+    .nav-link-planty{
+        font-size: 30px !important;
+        font-weight: 600;
+        color: #fff !important;
+        
+    }
+    .button.button-primary{
+        width: 50%;
+        border-radius: 12px !important;
+        margin: 15px auto !important;
+        background-color: #c02e44 !important;
+        font-size: 20px;
+    }
+
+    .button.button-primary:hover{
+        background-color: #DC9F96 !important;
+        color: #fff;
+    }
+
+    .lien-btn-nav{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width : 734px) { 
+    .title-h1{
+        font-size: 20px;
+    }
+    
+}
+
 @media screen and (max-width : 520px) {
+
+
+    /**** N A V B A R ****/
+
+
 
 
  /*****   P A G E  A C C U E I L *****/
 
     .title-h1{
-        width: 50%;
+        width: 15px;
+        margin-right: 200px !important;
     }
 
     .box-img{
@@ -539,4 +656,5 @@ form input:read-write{
        display: none;
     }
 
-}  
+}
+

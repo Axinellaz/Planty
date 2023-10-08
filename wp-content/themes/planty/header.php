@@ -20,35 +20,21 @@
         <img class="logo" src="<?php echo get_stylesheet_directory_uri() . '../img/logo-source.png' ?>" alt="Logo">
       </a> 
     
+      <div class="toggle">
+
+        <img class=" icone-nav-responsive ouvrir" src="<?php echo get_stylesheet_directory_uri() . '../img/menu-ouvrir.png' ?>" alt="icone bars ouverture menu mobile">
+        <img class="icone-nav-responsive fermer" src="<?php echo get_stylesheet_directory_uri() . '../img/menu-fermer.png' ?>" alt="icone croix fermeture menu mobile">
+      </div>
+
       <div class="container-menu-btn">
 
-
-        <?php if(is_user_logged_in()){
-
-          wp_nav_menu( ['theme-location' => 'header-planty']); 
-        }  
-        else{
-          wp_nav_menu( ['theme-location' => 'header-planty']);
-        }
-        
-        ?>
-                                  
-                            
-     <!-- <input type="submit" class="btn-navbar button button-primary" value="Commander"> -->
+        <?php wp_nav_menu( ['theme_location' => 'header-planty', ]); ?>
 
       <button class="btn-navbar button button-primary">
-        <a class="lien-btn-nav" href="http://localhost/planty/commander/">Commannder</a>
+        <a class="lien-btn-nav" href="http://localhost/planty/commander/">Commander</a>
       </button>
 
       </div>
 
     </nav>
 
-
-  <?php
-
-/*  if (is_user_logged_in()) {
-  // User is logged in
-} else {
-  // User is not logged in
-} */

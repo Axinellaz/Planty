@@ -1,0 +1,238 @@
+2023-10-07T08:43:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function planty_menu_nav(), 1 passed in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312 and exactly 2 expected in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(312): planty_menu_nav('<li id="menu-it...')
+#1 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#8 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php on line 18
+
+2023-10-07T08:44:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "planty_menu_nav" not found or invalid function name in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#5 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#6 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#7 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312
+
+2023-10-07T08:44:44+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "planty_menu_nav" not found or invalid function name in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#5 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#6 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#7 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312
+
+2023-10-07T09:13:34+00:00 CRITICAL Unclosed '{' on line 19 in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php on line 46
+
+2023-10-07T09:15:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_link_admin_planty(), 1 passed in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312 and exactly 2 expected in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(312): add_link_admin_planty('<li id="menu-it...')
+#1 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#8 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php on line 19
+
+2023-10-07T09:39:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_link_admin_planty(), 1 passed in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312 and exactly 2 expected in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(312): add_link_admin_planty('<li id="menu-it...')
+#1 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#8 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php on line 19
+
+2023-10-07T09:59:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_link_admin_planty(), 1 passed in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312 and exactly 2 expected in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(312): add_link_admin_planty('<li id="menu-it...')
+#1 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#8 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php on line 18
+
+2023-10-07T10:14:44+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "planty_menu_link_class" not found or invalid function name in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Planty\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#2 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#4 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#5 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#6 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#7 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#9 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#11 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312
+
+2023-10-07T10:15:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "planty_menu_link_class" not found or invalid function name in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Planty\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#2 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#4 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#5 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#6 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#7 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#9 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#11 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312
+
+2023-10-07T10:15:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "planty_menu_link_class" not found or invalid function name in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Planty\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#2 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#4 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#5 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#6 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#7 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#9 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#11 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312
+
+2023-10-07T10:17:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "planty_menu_link_class" not found or invalid function name in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Planty\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#2 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#4 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#5 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#6 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#7 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#9 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#11 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312
+
+2023-10-07T10:18:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "planty_menu_link_class" not found or invalid function name in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\xampp\htdocs\Planty\wp-includes\class-walker-nav-menu.php(255): apply_filters('nav_menu_link_a...', Array, Object(WP_Post), Object(stdClass), 0)
+#2 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(147): Walker_Nav_Menu->start_el('<li id="menu-it...', Object(WP_Post), 0, Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-includes\class-wp-walker.php(247): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li id="menu-it...')
+#4 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(616): Walker->walk(Array, 0, Object(stdClass))
+#5 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(236): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#6 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#7 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#9 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#11 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312
+
+2023-10-07T10:26:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_link_admin_planty(), 1 passed in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312 and exactly 2 expected in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php:33
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(312): add_link_admin_planty('<li id="menu-it...')
+#1 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#8 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php on line 33
+
+2023-10-07T10:28:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_link_admin_planty" not found or invalid function name in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php:312
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#5 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#6 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#7 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312
+
+2023-10-07T10:30:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_link_admin_planty(), 1 passed in C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php on line 312 and exactly 2 expected in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php:33
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(312): add_link_admin_planty('<li id="menu-it...')
+#1 C:\xampp\htdocs\Planty\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\xampp\htdocs\Planty\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\xampp\htdocs\Planty\wp-content\themes\planty\header.php(25): wp_nav_menu(Object(stdClass))
+#4 C:\xampp\htdocs\Planty\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Planty\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Planty\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Planty\wp-content\themes\neve\page-templates\template-pagebuilder-full-width.php(19): get_header()
+#8 C:\xampp\htdocs\Planty\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Planty\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Planty\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-content\themes\planty\functions.php on line 33
+
