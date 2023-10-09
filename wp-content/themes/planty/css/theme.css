@@ -188,11 +188,11 @@ header{
 
 /**********        Section Ce qu'ils pensent     **********/
 
-.rangee-post-footer{
+.rangee-cqp{
     width: 85%;
 }
 
-.item-rangee-post-footer{
+.item-rangee-cqp{
     width: 33%;
 }
 
@@ -544,25 +544,11 @@ form input:read-write{
 }
 
 @media screen and (max-width : 734px) { 
+
+    /*  P A G E  A C C E U I L */
+
     .title-h1{
         font-size: 20px;
-    }
-    
-}
-
-@media screen and (max-width : 520px) {
-
-
-    /**** N A V B A R ****/
-
-
-
-
- /*****   P A G E  A C C U E I L *****/
-
-    .title-h1{
-        width: 15px;
-        margin-right: 200px !important;
     }
 
     .box-img{
@@ -578,6 +564,26 @@ form input:read-write{
         width: 100%;
         top: 0;
     }
+
+    .rangee-cqp{
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .item-rangee-cqp{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 536px) {
+
+ /*****   P A G E  A C C U E I L *****/
+
+    .title-h1{
+        width: 15px;
+        margin-right: 200px !important;
+    }
+
 
     /* Galerie image */   
     .img-galerie{
