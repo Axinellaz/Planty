@@ -28,7 +28,7 @@
 
           <?php wp_nav_menu( ['theme_location' => 'header-planty', ]); ?>
 
-        <button class="btn-navbar button button-primary">
+        <button class="btn-navbar button button-primary " type="button">
           <a class="lien-btn-nav" href="http://localhost/planty/commander/">Commander</a>
         </button>
         </div>

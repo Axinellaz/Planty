@@ -4,6 +4,7 @@
     font-family: 'Syne', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 /*         N a v b a r           */
@@ -18,7 +19,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    height: 82px;
     width: 100%;
     background-color: #fff;
  }
@@ -63,7 +63,7 @@
 .menu-item a:hover{
     font-size: 14px;
     color: #000 !important;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* Lien Admin */
@@ -77,7 +77,7 @@
 .link-admin-planty:hover{
     font-size: 14px;
     color: #000 !important;
-    font-weight: 600;  
+    font-weight: 700;  
 }
 
 /* Bouton Navbar */
@@ -240,7 +240,7 @@ header{
 .img-team{
     position: absolute;
     right: 0%;
-    top: 37%;
+    top: 36.5%;
 }
 
 /* S e c t i o n :  FORMULAIRE-PAGE-NR **/
@@ -251,9 +251,17 @@ form textarea{
 
 #form-contact input[type=submit]{
     background-color: #DC9F96 !important;
-    padding: 15px 50px;
+    padding: 14px 64px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
     margin-left: 50%;
+    border-radius: 5px;
     transform: translateX(-50%); /* Pour eviter que le champ soit trop eloigné*/
+}
+
+#form-contact input[type=submit]:hover{
+    background-color: #c02e44 !important;
 }
 
 #form-contact label{
@@ -304,6 +312,13 @@ form input:read-write{
     border-radius: 15% 0 0 15%;
 }
 
+.input-incrementation::placeholder{
+    font-size: 16px;
+    color: #000 !important;
+    font-weight: 600;
+    text-align: center;
+}
+
 /*  BTN BOX ICREMENTATION */
 
 .box-btn-incrementation{
@@ -334,8 +349,12 @@ form input:read-write{
 /* BOUTON OK */
 
 .btn-ok{
-    background-color: #DC9F96;
-    padding: 15px 35px;
+    background-color: #E0B9B4;
+    padding: 16px 38px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-left: 5px; 
 }
 
 .btn-ok:hover{
@@ -345,6 +364,8 @@ form input:read-write{
 /* S e c t i o n : FORMULAIRE  */
 
 .form-commander{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 30px ;
 }
@@ -393,24 +414,21 @@ form input:read-write{
 
 .btn-envoyer{
     background-color: #E0B9B4 !important;
-    padding: 16px 50px !important;
-    font-weight: 500 !important;
+    padding: 17px 63px !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    border-radius: 5px !important;
 }
 
 .btn-envoyer:hover{
     background-color: #c02e44 !important;
 }
 
-.form-commander{
-    display: flex;
-    flex-direction: column;
-    column-gap: 15px;
-}
 
 /*     F O O T E R    */
 
 .footer-planty{
-    background-color: #fff !important;
+    background-color: #ece2da;
 }
 
 .p-footer{
@@ -425,37 +443,34 @@ form input:read-write{
 
 /*       R E S P O N S I V E      */
 
-
-@media screen  and (min-width : 1334px) {
-        
-    /****** P A G E   N O U S   R E N C O N T R E R ******/
-
-        .icone-page-nr{
-           /* width: 200px; */
-            left: 14%;
-        }
-
-        .img-form{
-           left: 30%; 
-        }
-    }
-
-@media screen and (max-width : 1334px) { 
-    .container-menu-btn{
-        width: auto;
-    }
-
+@media screen and (max-width : 1234px){ 
      /****** P A G E   N O U S   R E N C O N T R E R ******/
 
         .icone-page-nr{
-            /* width: 200px; */
-             left: 14%;
+            display: none;
+         }
+
+         .img-team{
+            display: none;
          }
  
          .img-form{
-            left: 25%; 
+            display: none; 
          }
+
      }
+
+@media screen and (min-width : 1462px ) {
+    /*** P A G E   N O U S  R E N C O N T R E R ***/
+
+    .icone-page-nr{
+        width: 200px ;
+     }
+
+    .img-form{
+        display: none; 
+     } 
+}
 
 @media screen and (max-width : 1340px) {
     .toggle{
@@ -519,12 +534,13 @@ form input:read-write{
         text-align: center;
     }
 
-    .nav-link-planty{
+    .nav-link-planty , .link-admin-planty{
         font-size: 30px !important;
         font-weight: 600;
         color: #fff !important;
         
     }
+
     .button.button-primary{
         width: 50%;
         border-radius: 12px !important;
@@ -542,6 +558,26 @@ form input:read-write{
         font-size: 25px;
     }
 }
+
+@media screen and (max-width : 1020px){
+    .container-btn-boxincrementaion{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width : 868px){
+
+    .container-btn-boxincrementaion{
+        width: 30%;
+        display: flex;   
+    }
+
+    .box-precommande-items{
+        justify-content: center;
+    }
+}
+
 
 @media screen and (max-width : 734px) { 
 
@@ -572,6 +608,19 @@ form input:read-write{
     
     .item-rangee-cqp{
         width: 100%;
+    }
+
+    /**** P A G E  C O M M A N D E ***/
+
+    
+    /******* S e c t i o n   C O M M A N D E R ****/
+
+    .container-form-flex{
+        display: block;
+    }
+
+    .separateur-verticale{
+       display: none;
     }
 }
 
@@ -628,7 +677,6 @@ form input:read-write{
         width: 100px;
         top: 54%;
     }
-
     /****** Section Formulaire NR ****/
 
     .form-page-nr{
@@ -653,14 +701,8 @@ form input:read-write{
 
     /******* P A G E   C O M M A N D E R ****/
 
-    .container-form-flex{
-        display: block;
+    .form-commander .input-commande{
+        width: 80%;
     }
-
-    .separateur-verticale{
-       /* transform: rotate(50deg); */
-       display: none;
-    }
-
 }
 
