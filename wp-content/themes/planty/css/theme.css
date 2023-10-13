@@ -305,19 +305,21 @@ form input:read-write{
 }
 
 /*  INPUT */
-.input-incrementation{
+.placeholder{
     width: 50px;
     height: 57px;
     border: none;
     border-radius: 15% 0 0 15%;
 }
 
-.input-incrementation::placeholder{
+.placeholder .p-precommande{
     font-size: 16px;
     color: #000 !important;
     font-weight: 600;
     text-align: center;
 }
+
+
 
 /*  BTN BOX ICREMENTATION */
 
@@ -440,6 +442,7 @@ form input:read-write{
 .footer-bottom{
     display: none;
 }
+
 
 /*       R E S P O N S I V E      */
 

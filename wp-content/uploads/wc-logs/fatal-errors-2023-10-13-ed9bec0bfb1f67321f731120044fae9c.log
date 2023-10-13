@@ -1,0 +1,60 @@
+2023-10-13T09:25:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Planty\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2023-10-13T12:40:21+00:00 CRITICAL Uncaught Error: Class "ElementorPro\Modules\DynamicTags\Module" not found in C:\xampp\htdocs\Planty\wp-content\plugins\dynamicconditions\Lib\DynamicTags\NumberPostsTag.php:30
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\dynamic-tags\base-tag.php(98): DynamicConditions\Lib\DynamicTags\NumberPostsTag->get_categories()
+#1 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\dynamic-tags\tag.php(73): Elementor\Core\DynamicTags\Base_Tag->get_editor_config()
+#2 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\dynamic-tags\manager.php(389): Elementor\Core\DynamicTags\Tag->get_editor_config()
+#3 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\dynamic-tags\manager.php(401): Elementor\Core\DynamicTags\Manager->get_tags_config()
+#4 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\loader\common\editor-common-scripts-settings.php(82): Elementor\Core\DynamicTags\Manager->get_config()
+#5 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\loader\v1\editor-v1-loader.php(76): Elementor\Core\Editor\Loader\Common\Editor_Common_Scripts_Settings::get()
+#6 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\editor.php(358): Elementor\Core\Editor\Loader\V1\Editor_V1_Loader->enqueue_scripts()
+#7 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(310): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#8 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\Planty\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\Planty\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#11 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#12 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\Planty\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\Planty\wp-includes\general-template.php(3053): do_action('wp_head')
+#15 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#16 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\loader\v1\editor-v1-loader.php(110): include('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\editor.php(163): Elementor\Core\Editor\Loader\V1\Editor_V1_Loader->print_root_template()
+#18 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(310): Elementor\Core\Editor\Editor->init('')
+#19 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#20 C:\xampp\htdocs\Planty\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\Planty\wp-admin\admin.php(419): do_action('admin_action_el...')
+#22 C:\xampp\htdocs\Planty\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-content\plugins\dynamicconditions\Lib\DynamicTags\NumberPostsTag.php on line 30
+
+2023-10-13T12:40:42+00:00 CRITICAL Uncaught Error: Class "ElementorPro\Modules\DynamicTags\Module" not found in C:\xampp\htdocs\Planty\wp-content\plugins\dynamicconditions\Lib\DynamicTags\NumberPostsTag.php:30
+Stack trace:
+#0 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\dynamic-tags\base-tag.php(98): DynamicConditions\Lib\DynamicTags\NumberPostsTag->get_categories()
+#1 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\dynamic-tags\tag.php(73): Elementor\Core\DynamicTags\Base_Tag->get_editor_config()
+#2 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\dynamic-tags\manager.php(389): Elementor\Core\DynamicTags\Tag->get_editor_config()
+#3 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\dynamic-tags\manager.php(401): Elementor\Core\DynamicTags\Manager->get_tags_config()
+#4 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\loader\common\editor-common-scripts-settings.php(82): Elementor\Core\DynamicTags\Manager->get_config()
+#5 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\loader\v1\editor-v1-loader.php(76): Elementor\Core\Editor\Loader\Common\Editor_Common_Scripts_Settings::get()
+#6 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\editor.php(358): Elementor\Core\Editor\Loader\V1\Editor_V1_Loader->enqueue_scripts()
+#7 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(310): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#8 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\Planty\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\Planty\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#11 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#12 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\Planty\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\Planty\wp-includes\general-template.php(3053): do_action('wp_head')
+#15 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#16 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\loader\v1\editor-v1-loader.php(110): include('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\Planty\wp-content\plugins\elementor\core\editor\editor.php(163): Elementor\Core\Editor\Loader\V1\Editor_V1_Loader->print_root_template()
+#18 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(310): Elementor\Core\Editor\Editor->init('')
+#19 C:\xampp\htdocs\Planty\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#20 C:\xampp\htdocs\Planty\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\Planty\wp-admin\admin.php(419): do_action('admin_action_el...')
+#22 C:\xampp\htdocs\Planty\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#23 {main}
+  thrown in C:\xampp\htdocs\Planty\wp-content\plugins\dynamicconditions\Lib\DynamicTags\NumberPostsTag.php on line 30
+
+2023-10-13T13:45:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Planty\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
