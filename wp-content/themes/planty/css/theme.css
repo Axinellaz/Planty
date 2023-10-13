@@ -305,14 +305,14 @@ form input:read-write{
 }
 
 /*  INPUT */
-.placeholder{
+.input-incrementation{
     width: 50px;
     height: 57px;
     border: none;
     border-radius: 15% 0 0 15%;
 }
 
-.placeholder .p-precommande{
+.input-incrementation::placeholder {
     font-size: 16px;
     color: #000 !important;
     font-weight: 600;
@@ -430,7 +430,7 @@ form input:read-write{
 /*     F O O T E R    */
 
 .footer-planty{
-    background-color: #ece2da;
+    background-color: #ece2da !important;
 }
 
 .p-footer{
@@ -441,6 +441,10 @@ form input:read-write{
 
 .footer-bottom{
     display: none;
+}
+
+.page-id-12 {
+    background-color: #E0B9B4 !important;
 }
 
 
