@@ -115,7 +115,7 @@ header{
 }
 
 .curved{
-    border-radius: 0 0 10% 10%;
+    border-radius: 0% 100% 19% 80% / 89% 0% 4% 8%;
     border-bottom: 5px solid #E3D9D0;
 }
 
