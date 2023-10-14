@@ -115,8 +115,8 @@ header{
 }
 
 .curved{
-    border-radius: 0% 100% 19% 80% / 89% 0% 4% 8%;
-    border-bottom: 5px solid #E3D9D0;
+    border-radius: 0% 0% 25% 25% / 25% 25% 7% 6%;
+    border-bottom: 11px solid #E3D9D0;
 }
 
 /****  Titre H1 *****/
@@ -283,7 +283,6 @@ form input:read-write{
 
 /******          P A G E  C O M M A N D E                   *******/
 /**** Title page ***/
-
 .sous-title-commande{
     color: #fff;
     font-size: 30px;
@@ -617,8 +616,7 @@ form input:read-write{
         width: 100%;
     }
 
-    /**** P A G E  C O M M A N D E ***/
-
+    /**** P A G E  C O M M A N D E ***
     
     /******* S e c t i o n   C O M M A N D E R ****/
 
@@ -708,6 +706,7 @@ form input:read-write{
 
     /******* P A G E   C O M M A N D E R ****/
 
+    /* Formulaire */
     .form-commander .input-commande{
         width: 80%;
     }

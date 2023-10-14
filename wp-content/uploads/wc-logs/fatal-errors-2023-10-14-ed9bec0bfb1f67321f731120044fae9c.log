@@ -1,0 +1,4 @@
+2023-10-14T18:04:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Planty\wp-includes\class-wp-theme.php on line 1448
+
+2023-10-14T21:30:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Planty\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-navigation-menu.php on line 22
+
