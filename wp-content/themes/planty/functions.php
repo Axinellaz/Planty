@@ -2,7 +2,7 @@
 function theme_enqueue_styles() {
 
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css');
+    wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css',  array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
 // Déclarer un autre fichier JS
 	wp_enqueue_script( 'js-planty', get_stylesheet_directory_uri() . '/js/js-planty.js', array( 'jquery' ), 
     '3.4.1',true);
